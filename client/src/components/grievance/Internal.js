@@ -51,7 +51,7 @@ class Internal extends Component {
 
     const { name, email,number, phoneNumber,address, department, year, message } = this.state;
 
-    const form = await axios.post('/api/form3', {
+    await axios.post('/api/form3', {
       name,
       email,
       number,
@@ -60,7 +60,7 @@ class Internal extends Component {
       department,
       year,
       message
-    })
+    });
   }
 
   render() {

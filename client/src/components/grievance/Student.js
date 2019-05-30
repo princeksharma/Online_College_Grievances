@@ -61,7 +61,7 @@ toggles() {
 
     const { name, email,number, phoneNumber, address, department, year, message } = this.state;
 
-    const form = await axios.post('/api/form2', {
+    await axios.post('/api/form2', {
       name,
       email,
       number,
