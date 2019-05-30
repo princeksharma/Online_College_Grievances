@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Form, FormGroup, Input, Label, Button, Jumbotron } from 'reactstrap';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, CardTitle, CardText, Row, Col, Tooltip, Badge} from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Card, CardTitle, CardText, Row, Col, Badge} from 'reactstrap';
 import classnames from 'classnames';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
